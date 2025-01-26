@@ -5,8 +5,10 @@
 - IaC is the process of managing and provisioning IT infrastructure using machine-readable defination file,you can manage infrastructure with configuration files rather than GUI
 - IaC allows you define your infrastructure (servers, networks, databases, etc.) in code, enabling automation, repeatability, and consistency across your environments.
 
-## Terraform
-## Installation 
+## Prerequisites
+1. AWS CLI
+2. Terraform
+## Terraform Installation 
 1. Install Terraform on Linux
    ## Update your system:
 - sudo apt update && sudo apt upgrade -y
@@ -15,5 +17,7 @@ echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://
 - sudo apt update
 - sudo apt install terraform
 - terraform version
+
+
 
 
