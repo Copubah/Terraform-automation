@@ -19,5 +19,13 @@ echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://
 - terraform version
 
 
+## Terraform commands
+- terraform init
+- terraform plan
+- terraform fmt
+- terraform apply
+- terraform destroy
+
+
 
 
